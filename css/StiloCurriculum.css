@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
 body{
-  background-image: url("../src/FondoOscuro1.jpg");
-  background-size: auto;
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("../src/FondoOscuro.jpg");
+  background-size: cover;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
   text-align: center;
@@ -77,15 +79,16 @@ a{
 }
 .listas>div{
   border-radius: 16px;
-  background-color: rgba(196, 128, 11,0.5);
+  background-color: rgba(196, 128, 11,0.6);
 }
 .Lista1{
   height: 34%;
   width: 80%;
+  
   box-sizing: border-box;
   flex-direction: column;
   justify-content: center;
-  background-color: rgba(140, 126, 28,0.5);
+  background-color: rgba(140, 126, 28,0.6);
 }
 .Lista1>h2{
   text-align: center;
@@ -98,7 +101,7 @@ a{
   box-sizing: border-box;
   flex-direction: column;
   justify-content: center;
-  background-color: rgba(140, 126, 28,0.5);
+  background-color: rgba(140, 126, 28,0.6);
 }
 
 .titulos{
@@ -125,7 +128,7 @@ a:hover{
   width: 80%;
 }
 #Barra3{
-  width: 30%;
+  width: 80%;
 }
 #Barra4{
   width: 80%;
